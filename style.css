@@ -1,14 +1,46 @@
-div{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background: rebeccapurple;
-    padding: 40px;
-    display: inline-block;
-    margin: 10px;
 }
-div a{
-    background: blue;
+.title h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin: 30px 0;
+}
+/* #all_project{
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+
+} */
+#all_project{
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.list a{
+    background: #fd6e0a;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     padding: 20px 40px;
     border-radius: 5px;
+    display:block;
+    text-align: center;
+    border: 2px solid #fd6e0a;
+}
+.list a:hover{
+    background-color: #fd6f0a00;
+    color: #fff;
+    border: 2px solid #fd6e0a;
 }
