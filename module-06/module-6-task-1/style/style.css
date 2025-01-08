@@ -94,8 +94,10 @@ nav{
     line-height: 90px;
     margin: 15px 0;
 }
-.hero_text button{
+.hero_text a{
+    display: inline-block;
     margin: 10px;
+    text-decoration: none;
 }
 
 .hero_image{
