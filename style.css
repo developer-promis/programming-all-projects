@@ -1,0 +1,14 @@
+div{
+    background: rebeccapurple;
+    padding: 40px;
+    display: inline-block;
+    margin: 10px;
+}
+div a{
+    background: blue;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+}

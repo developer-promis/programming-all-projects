@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table </title>       
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+       table {
+             border-collapse: collapse;
+             width:50%;
+        }
+        td, th{
+            border: 1px solid red;
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="form.html">Form</a></li>
+                <li ><a href="table.html">Table</a>
+                    <ul class="dorpdown">
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="index.html">Html</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">Html</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Table data</h1> 
+    
+        <table>
+            <caption>Member Salary List</caption>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Promis</td>
+                    <td>Fiverr</td>
+                    <td>$1000</td>
+                </tr>
+                <thead>
+                    <th>No</th>
+                    <th>No</th>
+                    <th>No</th>
+                    <th>No</th>
+                </thead>
+                <tr>
+                    <td>2</td>
+                    <td>Promis</td>
+                    <td>Fiverr</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Promis</td>
+                    <td>Fiverr</td>
+                    <td>$1000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total employee: 4 </td>
+                </tr>
+            </tfoot>
+            
+        </table>
+    </main>
+  
+
+</body>
+</html>

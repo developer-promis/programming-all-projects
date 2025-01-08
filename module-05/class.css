@@ -1,0 +1,13 @@
+section{
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: start;
+    
+}
+
+div{
+    background-color: aqua;
+    padding: 10px;
+    margin: 5px;
+   
+}
