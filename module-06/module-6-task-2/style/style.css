@@ -58,13 +58,25 @@ body{
 /* Hero Section */
 #hero_section{
     background-image: url(../assets/Hero-bg.png);
-    height: 100vh;
+    background-size: cover;
+    background-position: center center;
 }
-.hero_content{
+
+.hero_sec{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    align-content: center;
+    height: 100vh;
+    text-align: center;
 }
+
+/* .hero_content{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 200vh;
+    flex-direction: column;
+} */
 .hero_content h1{
     font-size: 48px;
     font-weight: 800;
@@ -156,20 +168,19 @@ body{
 /* inspiration ‍section */
 .inspiration{
    text-align: center;
+   margin: 50px 0;
 }
 .inspiration p{
     padding: 10px 150px;
 
 }
 .youtube_video{
-    width: 800px;
+    width: 720px;
     margin: 0 auto;
     border: 1px solid #0D1321;
     border-radius: 20px;
-    margin: 20px 0;
     padding: 20px;
-    display: flex;
-    align-items: center;
+
     
 }
 .inspiration iframe{
