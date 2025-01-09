@@ -18,7 +18,19 @@ body{
     line-height: 26px;
     color: #0D1321;
 }
- 
+
+.section_title{
+    font-size: 32px;
+    color: #0D1321;
+    font-weight: 800;
+    line-height: 40px;
+}
+.blog_title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #0d1321b7;
+}
 /* Header Setup */
 .nav_bar{
     display: flex;
@@ -74,4 +86,95 @@ body{
     color: #fff;
     font-size: 20px;
     font-weight: 500;
+}
+
+/* Blog Section */
+.blog_background{
+    background: #fafafb;
+    padding: 50px 100px;
+    margin: 70px 0;
+    border-radius: 20px;
+}
+.blog_text{
+    padding: 0px 20px;
+    margin: 50px 0;
+    text-align: center;
+    text-align: center;
+}
+.blog_text p{
+    padding: 15px 0;
+}
+.blog_article_text p{
+    padding: 18px 0;
+}
+.blog_button {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #0D1321;
+}
+
+.blog_article1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin: 25px 0;
+    
+}
+
+.blog_article_text {
+    width: 50%;
+}
+
+.blog_article_img{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+.blog_article2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin: 25px 0;
+    flex-direction: row-reverse;
+}
+.blog_article_img2{
+    display: flex;
+    justify-content: start;
+    width: 50%;
+}
+
+/* inspiration ‍section */
+.inspiration{
+   text-align: center;
+}
+.inspiration p{
+    padding: 10px 150px;
+
+}
+.youtube_video{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #0D1321;
+    border-radius: 20px;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.inspiration iframe{
+    border: 1px solid #0D1321;
+    border-radius: 20px;
+    margin: 20px 0;
+    padding: 20px;
 }
