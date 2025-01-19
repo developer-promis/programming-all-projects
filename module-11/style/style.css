@@ -57,8 +57,8 @@
     align-items: center;
     gap: 60px;
     padding: 40px 0;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, blue, #ddd, red) 1;
 }
 
 /* End Client Logo Section */
@@ -70,10 +70,13 @@
     padding: 15px;
     
 }
+.product_img img{
+    width: 100%;
+}
 .product_list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 55px;
+    gap: 25px;
     
 }
 /* End Product list Section */
